@@ -96,6 +96,74 @@ html, body {
         background: url("../img/oelskum.png") repeat-x;
     }
 
+    .stemmeLokation {
+        display: none;
+        border-bottom: 1px dashed $sideFarve;
+
+        h1 {
+            color: $sideFarve;
+            font-size: 2em;
+            text-align: center;
+            margin: 10px 0 10px 0;
+        }
+
+        .lokationForm {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+
+            .form-error {
+                order: -1;
+                background: #D84315;
+                color: $sideFarve;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
+            input[type="number"]{
+                width: 100%;
+                background: $sideFarve;
+                border: none;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    box-shadow: 0 5px 5px -5px rgba(0,0,0,.5);
+                }
+
+                &:focus {
+                    outline: none;
+                    box-shadow: 0 5px 5px -5px rgba(0,0,0,.5);
+                }
+            }
+
+            input[type="submit"]{
+                width: 100%;
+                background: $billetFarve;
+                border: none;
+                color: $sideFarve;
+                padding: 10px;
+                border-radius: 10px;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    box-shadow: 0 5px 5px -5px rgba(0,0,0,.5);
+                }
+
+                &:focus {
+                    outline: none;
+                    background: darken($billetFarve, 5%);
+                }
+            }
+        }
+    }
+
     .top {
         border-bottom: 1px dashed $sideFarve;
     }
@@ -508,36 +576,50 @@ html, body {
             font-size: 18px;
         }
 
-        input[type="text"], input[type="email"], textarea {
-            background: $sideFarve;
-            border-radius: 10px;
-            border: none;
-            padding: 7px;
-            width: 100%;
-            box-sizing: border-box;
-            outline: none;
-        }
+        .kontaktFormular {
+            display: flex;
+            flex-direction: column;
 
-        textarea {
-            min-height: 100px;
-        }
+            .form-error {
+                order: -1;
+                background: #D84315;
+                color: $sideFarve;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
 
-        button {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 7px;
-            border-radius: 10px;
-            background: #43A047;
-            border: none;
-            color: $sideFarve;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 1.3em;
-            margin-top: 5px;
+            input[type="text"], input[type="email"], textarea {
+                background: $sideFarve;
+                border-radius: 10px;
+                border: none;
+                padding: 7px;
+                width: 100%;
+                box-sizing: border-box;
+                outline: none;
+            }
 
-            i {
-                font-size: 1.2em;
-                padding-right: 5px;
+            textarea {
+                min-height: 100px;
+            }
+
+            button {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 7px;
+                border-radius: 10px;
+                background: #43A047;
+                border: none;
+                color: $sideFarve;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 1.3em;
+                margin-top: 5px;
+
+                i {
+                    font-size: 1.2em;
+                    padding-right: 5px;
+                }
             }
         }
     }

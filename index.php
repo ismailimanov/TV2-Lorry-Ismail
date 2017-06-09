@@ -2,17 +2,29 @@
 $filNavn = basename(__FILE__, '.php');
 include("header.php");
 ?>
-            <div class="topslider valign-wrapper">
+            <div class="topslider">
                 <div class="container">
-                    <div class="row">
+                    <div class="row sliderIndhold">
                         <div class="col s12 m12 l12">
                             <h1 class="sliderOverskrift">Kommunalvalg '17</h1>
+                            <div class="findValgsted">Find dit nærmeste valgsted</div>
                         </div>
                     </div>
                 </div>
                 <div class="oel oelAnim"></div>
             </div>
             <div class="skumBund"></div>
+            <div class="container stemmeLokation">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <h1>Find dit nærmeste valgsted</h1>
+                        <form action="" method="post" class="lokationForm">
+                            <input type="number" name="postnr" data-validation="length" data-validation-length="4" placeholder="Indtast dit postnummer" data-validation-error-msg="Postnummeret skal være 4 tegn." required>
+                            <input type="submit" value="Søg" name="findLokation">
+                        </form>
+                    </div>
+                </div>
+            </div>
             <div class="container top">
                 <div class="row">
                     <div class="col s12 m8 l8 hvad">

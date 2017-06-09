@@ -7,6 +7,39 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    .sliderIndhold {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 80vh;
+        z-index: 5;
+
+        .findValgsted {
+            width: 100%;
+            max-width: 400px;
+            border: 2px solid $sideFarve;
+            border-radius: 20px;
+            text-align: center;
+            color: $sideFarve;
+            margin: 0 auto;
+            font-size: 1.5em;
+            box-shadow: 0 0 5px rgba(0,0,0,.5);
+            text-shadow: 0 0 5px rgba(0,0,0,.5);
+            padding: 10px 0;
+            text-transform: uppercase;
+            transition: all .4s ease-in-out;
+
+            &:hover {
+                background: $sideFarve;
+                color: #212121;
+                text-shadow: none;
+                box-shadow: 0 5px 5px -5px rgba(0,0,0,.5);
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .fbv {
@@ -36,7 +69,7 @@
 
 .oel {
     width: calc( 100% + 4em );
-    height: 100%;
+    height: 45px;
     position: absolute;
     left: -2em;
     background: bottom center repeat-x;
@@ -49,7 +82,7 @@
     animation-name: oelAnim;
     animation-duration: 7400ms;
     animation-delay: -1200ms;
-    top: 1em;
+    bottom: -1em;
     background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246" height="2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M247,1957c-11,0-20.3,7.5-23,17.6c-2.4-3.2-5.8-5.1-9.5-5.1c-2.2,0-4.2,0.7-6,1.8c-3-9.5-11-16.3-20.5-16.3
 	c-8.3,0-15.5,5.2-19.2,13c-2.3-0.9-4.8-1.5-7.5-1.5c-6.9,0-12.8,3.4-16.1,8.6c-2.5-11.5-11.4-20.1-21.9-20.1
 	c-10.8,0-19.8,8.8-22.1,20.7c-3.1-5.5-9-9.2-15.8-9.2c-2.8,0-5.4,0.6-7.7,1.7c-3.4-7.8-10.6-13.2-19-13.2c-9,0-16.7,6.2-19.7,14.9

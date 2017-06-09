@@ -1,4 +1,4 @@
-<?php
+    <?php
 session_start();
 if(!isset($_SESSION["first_time"])){
     $_SESSION["first_time"] = 0;

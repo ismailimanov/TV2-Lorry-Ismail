@@ -25,11 +25,11 @@ if(isset($_POST["sendBesked"])){
         <div class="row">
             <div class="col s12 m12 l8">
                 <span class="kontaktOver">Har du et spørgsmål? Så skriv til os!</span>
-                <form action="#" method="post">
-                    <input type="text" name="fuldeNavn" placeholder="Dit navn" required>
-                    <input type="email" name="email" placeholder="Din e-mail adresse" required>
-                    <input type="text" name="emne" placeholder="Emne" required>
-                    <textarea name="besked" placeholder="Din besked" required></textarea>
+                <form action="#" method="post" class="kontaktFormular">
+                    <input type="text" name="fuldeNavn" placeholder="Dit navn" data-validation="required">
+                    <input type="email" name="email" placeholder="Din e-mail adresse" data-validation="email">
+                    <input type="text" name="emne" placeholder="Emne" data-validation="required">
+                    <textarea name="besked" placeholder="Din besked" data-validation="required"></textarea>
                     <button name="sendBesked"><i class="fa fa-envelope-o"></i> Send Besked</button>
                 </form>
             </div>

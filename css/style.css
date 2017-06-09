@@ -138,6 +138,48 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+  .topslider .sliderIndhold {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    height: 80vh;
+    z-index: 5; }
+    .topslider .sliderIndhold .findValgsted {
+      width: 100%;
+      max-width: 400px;
+      border: 2px solid #FAFAFA;
+      border-radius: 20px;
+      text-align: center;
+      color: #FAFAFA;
+      margin: 0 auto;
+      font-size: 1.5em;
+      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      padding: 10px 0;
+      text-transform: uppercase;
+      -webkit-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out; }
+      .topslider .sliderIndhold .findValgsted:hover {
+        background: #FAFAFA;
+        color: #212121;
+        text-shadow: none;
+        -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+        cursor: pointer; }
 
 .fbv {
   height: 40vh !important;
@@ -171,7 +213,7 @@
 
 .oel {
   width: calc( 100% + 4em);
-  height: 100%;
+  height: 45px;
   position: absolute;
   left: -2em;
   background: bottom center repeat-x;
@@ -188,7 +230,7 @@
   animation-duration: 7400ms;
   -webkit-animation-delay: -1200ms;
   animation-delay: -1200ms;
-  top: 1em;
+  bottom: -1em;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246" height="2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M247,1957c-11,0-20.3,7.5-23,17.6c-2.4-3.2-5.8-5.1-9.5-5.1c-2.2,0-4.2,0.7-6,1.8c-3-9.5-11-16.3-20.5-16.3\a 	c-8.3,0-15.5,5.2-19.2,13c-2.3-0.9-4.8-1.5-7.5-1.5c-6.9,0-12.8,3.4-16.1,8.6c-2.5-11.5-11.4-20.1-21.9-20.1\a 	c-10.8,0-19.8,8.8-22.1,20.7c-3.1-5.5-9-9.2-15.8-9.2c-2.8,0-5.4,0.6-7.7,1.7c-3.4-7.8-10.6-13.2-19-13.2c-9,0-16.7,6.2-19.7,14.9\a 	c-1.3-0.3-2.6-0.4-4-0.4c-5.4,0-10.1,2.1-13.1,5.4c-2.7-10.2-12.5-17.7-24.1-17.7c-13.7,0-24.9,10.5-24.9,23.5s11.1,23.5,24.9,23.5\a 	c0.7,0,1.4,0,2.1-0.1v6.8h246.6v-6.5c0.1,0,0.3,0,0.4,0c13.1,0,23.8-10.6,23.8-23.8S260.1,1957,247,1957z"/></svg>');
   background-position: bottom left;
   z-index: 2; }
@@ -291,6 +333,72 @@ html, body {
     height: 166px;
     width: 100%;
     background: url("../img/oelskum.png") repeat-x; }
+  html .stemmeLokation, body .stemmeLokation {
+    display: none;
+    border-bottom: 1px dashed #FAFAFA; }
+    html .stemmeLokation h1, body .stemmeLokation h1 {
+      color: #FAFAFA;
+      font-size: 2em;
+      text-align: center;
+      margin: 10px 0 10px 0; }
+    html .stemmeLokation .lokationForm, body .stemmeLokation .lokationForm {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      html .stemmeLokation .lokationForm .form-error, body .stemmeLokation .lokationForm .form-error {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+        background: #D84315;
+        color: #FAFAFA;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px; }
+      html .stemmeLokation .lokationForm input[type="number"], body .stemmeLokation .lokationForm input[type="number"] {
+        width: 100%;
+        background: #FAFAFA;
+        border: none;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; }
+        html .stemmeLokation .lokationForm input[type="number"]:hover, body .stemmeLokation .lokationForm input[type="number"]:hover {
+          -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); }
+        html .stemmeLokation .lokationForm input[type="number"]:focus, body .stemmeLokation .lokationForm input[type="number"]:focus {
+          outline: none;
+          -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); }
+      html .stemmeLokation .lokationForm input[type="submit"], body .stemmeLokation .lokationForm input[type="submit"] {
+        width: 100%;
+        background: #6E9F5A;
+        border: none;
+        color: #FAFAFA;
+        padding: 10px;
+        border-radius: 10px;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; }
+        html .stemmeLokation .lokationForm input[type="submit"]:hover, body .stemmeLokation .lokationForm input[type="submit"]:hover {
+          -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); }
+        html .stemmeLokation .lokationForm input[type="submit"]:focus, body .stemmeLokation .lokationForm input[type="submit"]:focus {
+          outline: none;
+          background: #638f51; }
   html .top, body .top {
     border-bottom: 1px dashed #FAFAFA; }
   html .hvad h1, body .hvad h1 {
@@ -567,33 +675,53 @@ html, body {
     html .kontakt .virkInfo, body .kontakt .virkInfo {
       color: #FAFAFA;
       font-size: 18px; }
-    html .kontakt input[type="text"], html .kontakt input[type="email"], html .kontakt textarea, body .kontakt input[type="text"], body .kontakt input[type="email"], body .kontakt textarea {
-      background: #FAFAFA;
-      border-radius: 10px;
-      border: none;
-      padding: 7px;
-      width: 100%;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      outline: none; }
-    html .kontakt textarea, body .kontakt textarea {
-      min-height: 100px; }
-    html .kontakt button, body .kontakt button {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      width: 100%;
-      padding: 7px;
-      border-radius: 10px;
-      background: #43A047;
-      border: none;
-      color: #FAFAFA;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 1.3em;
-      margin-top: 5px; }
-      html .kontakt button i, body .kontakt button i {
-        font-size: 1.2em;
-        padding-right: 5px; }
+    html .kontakt .kontaktFormular, body .kontakt .kontaktFormular {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      html .kontakt .kontaktFormular .form-error, body .kontakt .kontaktFormular .form-error {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+        -ms-flex-order: -1;
+        order: -1;
+        background: #D84315;
+        color: #FAFAFA;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px; }
+      html .kontakt .kontaktFormular input[type="text"], html .kontakt .kontaktFormular input[type="email"], html .kontakt .kontaktFormular textarea, body .kontakt .kontaktFormular input[type="text"], body .kontakt .kontaktFormular input[type="email"], body .kontakt .kontaktFormular textarea {
+        background: #FAFAFA;
+        border-radius: 10px;
+        border: none;
+        padding: 7px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none; }
+      html .kontakt .kontaktFormular textarea, body .kontakt .kontaktFormular textarea {
+        min-height: 100px; }
+      html .kontakt .kontaktFormular button, body .kontakt .kontaktFormular button {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 7px;
+        border-radius: 10px;
+        background: #43A047;
+        border: none;
+        color: #FAFAFA;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        margin-top: 5px; }
+        html .kontakt .kontaktFormular button i, body .kontakt .kontaktFormular button i {
+          font-size: 1.2em;
+          padding-right: 5px; }
   html footer, body footer {
     text-align: center;
     color: #000;

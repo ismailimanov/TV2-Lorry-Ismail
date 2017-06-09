@@ -1,0 +1,9 @@
+ErrorDocument 404 https://fadbamsevalg.dk
+
+RewriteEngine on
+RewriteRule ^forside$ index\.php
+RewriteRule ^fadbamsevalg$ fadbamsevalg\.php
+RewriteRule ^om-os$ omos\.php
+RewriteRule ^kontakt-os$ kontaktos\.php
+RewriteRule ^admin$ admin\.php
+RewriteRule ^loading$ splash\.php
