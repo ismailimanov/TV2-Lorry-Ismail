@@ -1,0 +1,552 @@
+/* FADBAMSEVALG17 CSS Fil */
+@import 'variabler';
+@import 'reset';
+@import 'responsiv';
+@import 'oel';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+
+html, body {
+    height: 100%;
+    background: $temaRGB;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+
+    .indhold {
+        transition: all .4s ease-in-out;
+    }
+
+    header {
+        position: fixed;
+        background: $sideFarve;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+        height: 80px;
+        box-shadow: 0 3px 9px rgba(204, 204, 204,.6);
+
+        .logoLink {
+            color: inherit;
+
+            .logoHolder {
+                display: flex;
+                flex-direction: row;
+                height: 80px;
+                align-items: center;
+
+                .logo {
+                    max-height: 70px;
+                    max-width: 70px;
+                }
+
+                .logoTekst {
+                    font-family: 'Fjalla One', sans-serif;
+                    font-size: 1.5em;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .menu {
+            display: block;
+            float: right;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                line-height: 80px;
+                text-transform: uppercase;
+                margin: 0 10px;
+                font-size: 18px;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid transparent;
+                    transition: all .6s ease-in-out;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+
+                    &:hover {
+                        border-bottom: 2px solid $temaRGB;
+                        cursor: pointer;
+                    }
+                }
+
+                .active {
+                    border-bottom: 2px solid $temaRGB;
+                    font-weight: 500;
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .skumBund {
+        height: 166px;
+        width: 100%;
+        background: url("../img/oelskum.png") repeat-x;
+    }
+
+    .top {
+        border-bottom: 1px dashed $sideFarve;
+    }
+
+    .hvad {
+
+        h1 {
+            text-transform: uppercase;
+            color: $sideFarve;
+            font-size: 3.5em;
+        }
+
+        p {
+            color: $sideFarve;
+            text-align: justify;
+            font-size: 22px;
+            padding-right: 10px;
+        }
+    }
+
+    .info {
+        margin-top: 40px;
+        text-align: center;
+        border-left: 1px dashed $sideFarve;
+
+        img {
+            border-radius: 100%;
+        }
+
+        span {
+            color: $sideFarve;
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        p {
+            color: $sideFarve;
+            font-size: 19px;
+            margin-top: 5px;
+        }
+
+        .gronBillet {
+            width: 100%;
+            margin-top: 50px;
+            background: $billetFarve;
+            text-align: left;
+            font-family: 'Lato', sans-serif;
+
+
+            .billetArtister {
+                width: 100%;
+                padding: 10px 20px 5px 40px;
+
+                &--overskrift {
+                    color: #000;
+                    font-weight: 700;
+                    font-size: 2em;
+                }
+
+                &--artist {
+                    font-weight: 900;
+
+                    &:nth-of-type(2) {
+                        color: #FAFAFA;
+                        font-size: 3em;
+                        line-height: 40px;
+                        letter-spacing: 2px;
+                    }
+
+                    &:nth-of-type(3){
+                        font-size: 2.5em;
+                    }
+
+                    &:nth-of-type(4){
+                        font-size: 2.9em;
+                        color: #FAFAFA;
+                        line-height: 35px;
+                    }
+
+                    &:nth-of-type(5){
+                        font-size: 2.3em;
+                        line-height: 40px;
+                    }
+
+                    &:nth-of-type(6){
+                        font-size: 2.3em;
+                        color: #FAFAFA;
+                        line-height: 35px;
+                    }
+
+                    &:nth-of-type(7){
+                        font-size: 2.2em;
+                        line-height: 35px;
+                    }
+                }
+            }
+
+            .billetBy {
+                width: 100%;
+                background: $billetByFarve;
+                color: #FAFAFA;
+                padding: 5px 20px 5px 40px;
+
+                &--venstre {
+                    float: left;
+                    font-size: .8em;
+                    line-height: 12px;
+                    padding-top: 5px;
+                }
+
+                &--hoejre {
+                    float: right;
+                    text-transform: uppercase;
+                    font-size: 1.5em;
+                }
+
+                &--clear {
+                    clear: both;
+                }
+            }
+
+            .billetBund {
+                width: 100%;
+                background: $billetBundFarve;
+                color: #000;
+                padding: 5px 20px 5px 40px;
+                font-size: .9em;
+
+                &--overskrift {
+                    font-weight: 900;
+                }
+
+                &--venstre {
+                    float: left;
+                }
+
+                &--hoejre {
+                    float: right;
+                    width: 50%;
+
+                    img {
+                        border-radius: 0;
+                        width: 100%;
+                        float: right;
+                        padding-top: 5px;
+
+                    }
+                }
+
+                &--clear {
+                    clear: both;
+                }
+            }
+        }
+    }
+
+    .seneste {
+
+        h2 {
+            color: $sideFarve;
+            text-align: center;
+        }
+    }
+    
+    .insta {
+        text-align: center;
+    }
+
+    .instaBilleder {
+        margin-top: 50px;
+
+        .fadbamsevalgTekst {
+            margin-bottom: 50px;
+
+            p {
+                color: $sideFarve;
+                text-align: justify;
+            }
+
+            .omosLink {
+                color: inherit;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .omos {
+        margin-top: 50px;
+        border-bottom: 1px dashed $sideFarve;
+
+        h1 {
+            text-transform: uppercase;
+            color: $sideFarve;
+            font-size: 3.5em;
+            margin-top: 0;
+        }
+
+        p {
+            color: $sideFarve;
+            text-align: justify;
+            font-size: 22px;
+        }
+        
+        .omosLogo {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .video {
+        border-bottom: 1px dashed $sideFarve;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .videowrapper {
+            float: none;
+            clear: both;
+            width: 100%;
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+    }
+
+    .teamet {
+        border-bottom: 1px dashed $sideFarve;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .billedeHolder {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            overflow: hidden;
+
+            .billede {
+                background: transparent;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                border-radius: 100%;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                    box-shadow: 0 0 5px darken($temaRGB, 7%);
+                }
+            }
+
+            .helene {
+                background: url("../img/helene.jpg") no-repeat;
+                background-size: cover;
+                background-position: 0 -10px;
+            }
+
+            .ismail {
+                background: url("../img/ismail.jpg") no-repeat;
+                background-size: cover;
+            }
+
+            .line {
+                background: url("../img/line.jpg") no-repeat;
+                background-size: cover;
+                background-position: 0 -10px;
+            }
+            .mie {
+                background: url("../img/mie.jpg") no-repeat;
+                background-size: cover;
+            }
+
+            span {
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: $sideFarve;
+                font-size: 1.2em;
+                position: absolute;
+                bottom: -30px;
+                opacity: 0;
+                left: 0;
+                background: rgba(0,0,0,.4);
+                transition: all .5s ease-in-out;
+            }
+
+            &:hover span {
+                bottom: 40px;
+                opacity: 1;
+            }
+        }
+
+    }
+
+    .admin {
+        margin-top: 50px;
+
+        h1 {
+            color: $sideFarve;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .adminLogind {
+
+            input[type="password"] {
+                background: #FFF;
+                border-radius: 7px;
+                padding: 0 10px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            button {
+                width: 100%;
+                border: 0;
+                border-radius: 7px;
+                padding: 10px;
+                background: #FFF;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        .kontaktBoks {
+            background: #FFF;
+            width: 50%;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+
+    .samarb {
+        margin-top: 20px;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .samarbejdspartner {
+            text-align: right;
+
+            &:last-of-type {
+                text-align: left;
+            }
+        }
+    }
+
+    .hjemmeside {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: $sideFarve;
+        font-size: 12px;
+    }
+
+    .kontakt {
+        margin-top: 50px;
+
+        .kontaktOver {
+            text-align: center;
+            width: 100%;
+            display: block;
+            color: $sideFarve;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .virkOver {
+            width: 100%;
+            display: block;
+            color: $sideFarve;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .virkInfo {
+            color: $sideFarve;
+            font-size: 18px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            background: $sideFarve;
+            border-radius: 10px;
+            border: none;
+            padding: 7px;
+            width: 100%;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        textarea {
+            min-height: 100px;
+        }
+
+        button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 7px;
+            border-radius: 10px;
+            background: #43A047;
+            border: none;
+            color: $sideFarve;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1.3em;
+            margin-top: 5px;
+
+            i {
+                font-size: 1.2em;
+                padding-right: 5px;
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+        color: #000;
+        background: #fff9c4;
+        padding: 10px 0;
+        font-size: 1.2vmax;
+    }
+}

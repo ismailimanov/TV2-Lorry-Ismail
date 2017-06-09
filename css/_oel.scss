@@ -1,0 +1,80 @@
+.topslider {
+    width: 100%;
+    height: 80vh;
+    min-height: 10em;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fbv {
+    height: 40vh !important;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.omostop {
+    height: 40vh !important;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.kontaktostop {
+    height: 40vh !important;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://img.buzzfeed.com/buzzfeed-static/static/2016-01/4/14/enhanced/webdr13/anigif_original-14577-1451936977-4.gif") no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.oel {
+    width: calc( 100% + 4em );
+    height: 100%;
+    position: absolute;
+    left: -2em;
+    background: bottom center repeat-x;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: -1;
+}
+
+.oelAnim {
+    animation-name: oelAnim;
+    animation-duration: 7400ms;
+    animation-delay: -1200ms;
+    top: 1em;
+    background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246" height="2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M247,1957c-11,0-20.3,7.5-23,17.6c-2.4-3.2-5.8-5.1-9.5-5.1c-2.2,0-4.2,0.7-6,1.8c-3-9.5-11-16.3-20.5-16.3
+	c-8.3,0-15.5,5.2-19.2,13c-2.3-0.9-4.8-1.5-7.5-1.5c-6.9,0-12.8,3.4-16.1,8.6c-2.5-11.5-11.4-20.1-21.9-20.1
+	c-10.8,0-19.8,8.8-22.1,20.7c-3.1-5.5-9-9.2-15.8-9.2c-2.8,0-5.4,0.6-7.7,1.7c-3.4-7.8-10.6-13.2-19-13.2c-9,0-16.7,6.2-19.7,14.9
+	c-1.3-0.3-2.6-0.4-4-0.4c-5.4,0-10.1,2.1-13.1,5.4c-2.7-10.2-12.5-17.7-24.1-17.7c-13.7,0-24.9,10.5-24.9,23.5s11.1,23.5,24.9,23.5
+	c0.7,0,1.4,0,2.1-0.1v6.8h246.6v-6.5c0.1,0,0.3,0,0.4,0c13.1,0,23.8-10.6,23.8-23.8S260.1,1957,247,1957z"/></svg>');
+    background-position: bottom left;
+    z-index: 2;
+}
+
+.sliderOverskrift {
+    text-align: center;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    font-size: 5vmax;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+@keyframes oelAnim {
+    from {
+        transform: rotate(0deg) translatey(-0.61em) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translatey(-0.61em) rotate(-360deg);
+    }
+}

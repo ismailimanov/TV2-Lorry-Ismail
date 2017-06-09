@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import 'variabler';
+
+$bgFarve: #6E9F5A;
+
+@mixin storrelse($b: 100%, $h: 100%) {
+    width: $b;
+    height: $h;
+}
+
+.loadingBoks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: $bgFarve;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+
+    .splashscreen {
+        position: relative;
+    }
+
+    .oel, .bobbler, .skum {
+        position: absolute;
+    }
+
+    .bobbler, .skum {
+        background: #FFFFFF;
+    }
+
+    .bobbler {
+        border-radius: 100%;
+    }
+
+    .kop {
+        position: relative;
+        @include storrelse(20vmin, 32vmin);
+        background: $kop;
+        border-radius: 2vmin;
+
+        &:before, &:after {
+            position: absolute;
+            content: '';
+        }
+
+        &:before {
+            z-index: -2;
+            left: 12vmin;
+            top: 6vmin;
+            @include storrelse(15vmin, 17vmin);
+            border-radius: 19%;
+            background: $kop;
+        }
+
+        &:after {
+            z-index: -1;
+            @include storrelse(12vmin, 13vmin);
+            top: 8vmin;
+            left: 13vmin;
+            background: $bgFarve;
+            border-radius: 19%;
+        }
+    }
+
+    .oel {
+        top: 2vmin;
+        left: 2vmin;
+        @include storrelse(16vmin, 28vmin);
+        background: $temaFarve;
+        border-radius: 1vmin;
+        z-index: 1;
+
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            background: $bobbler;
+            border-radius: 100%;
+        }
+
+        &:before {
+            animation: 4s bobblerOp infinite;
+            @include storrelse(2vmin, 2vmin);
+            bottom: 2vmin;
+            left: 5vmin;
+            box-shadow: 7vmin -15vmin 0 $bobbler, 4vmin -10vmin 0 $bobbler, 6vmin -3vmin 0 $bobbler;
+        }
+
+        &:after {
+            animation: 4s bobblerOp infinite;
+            @include storrelse(1.5vmin, 1.5vmin);
+            bottom: 6vmin;
+            left: 7vmin;
+            box-shadow: -3vmin -8vmin 0 $bobbler, 7vmin -5vmin 0 $bobbler;
+        }
+    }
+
+    .bobbler {
+        @include storrelse(10vmin, 10vmin);
+        top: -5vmin;
+        left: -3vmin;
+
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            background: white;
+            border-radius: 100%;
+        }
+
+        &:before {
+            @include storrelse(12vmin, 12vmin);
+            left: 5vmin;
+            top: -2vmin;
+        }
+
+        &:after {
+            @include storrelse(10vmin, 10vmin);
+            left: 14vmin;
+            top: 0;
+        }
+    }
+
+    .skum {
+        @include storrelse(5vmin, 14vmin);
+        top: 1vmin;
+        border-radius: 100px;
+        left: -2vmin;
+        box-shadow: 4vmin -6vmin 0 white;
+        animation: 6s skum infinite;
+        z-index: 2;
+    }
+
+    .procent {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        color: #FFF;
+        font-size: 2em;
+        width: 0;
+    }
+}
+
+@keyframes bobblerOp {
+    0% {
+        transform: translateY(0px);
+    }
+    99% {
+        transform: translateY(-70px);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes skum {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        height: 25vmin;
+    }
+}

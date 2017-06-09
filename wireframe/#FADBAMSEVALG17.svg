@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3980 0 1920 2741">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-_FADBAMSEVALG17);
+      }
+
+      .cls-3 {
+        fill: rgba(239,199,32,0.65);
+      }
+
+      .cls-4 {
+        fill: #bbb;
+        opacity: 0.8;
+      }
+
+      .cls-5, .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 49px;
+      }
+
+      .cls-11, .cls-5, .cls-6, .cls-8 {
+        font-family: HelveticaNeue-Light, Helvetica Neue;
+        font-weight: 300;
+      }
+
+      .cls-6 {
+        font-size: 154px;
+      }
+
+      .cls-7 {
+        fill: #eee;
+      }
+
+      .cls-8 {
+        font-size: 34px;
+      }
+
+      .cls-9 {
+        stroke: #95989a;
+      }
+
+      .cls-10 {
+        fill: #ccc;
+      }
+
+      .cls-11 {
+        fill: #95989a;
+        font-size: 28px;
+      }
+
+      .cls-12 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-13 {
+        stroke: none;
+      }
+
+      .cls-14 {
+        fill: #fafafa;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="519" height="548"/>
+    </clipPath>
+    <clipPath id="clip-_FADBAMSEVALG17">
+      <rect x="3980" width="1920" height="2741"/>
+    </clipPath>
+  </defs>
+  <g id="_FADBAMSEVALG17" data-name="#FADBAMSEVALG17" class="cls-2">
+    <rect class="cls-14" x="3980" width="1920" height="2741"/>
+    <path id="Path_4" data-name="Path 4" class="cls-3" d="M0,0H1920V942s-106.391,22.708-236.914,0-119.921,30.688-286.066,0-213.864,30.37-361.713,0-170.034-36.109-340.319,0-197.306-34.568-366.231,0S0,942,0,942Z" transform="translate(3980 -440)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-4" width="332" height="116" transform="translate(4007 25)"/>
+    <text id="LOGO" class="cls-5" transform="translate(4104 102)"><tspan x="0" y="0">LOGO</tspan></text>
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-4" width="815" height="116" transform="translate(5060 25)"/>
+    <text id="MENU" class="cls-5" transform="translate(5398 102)"><tspan x="0" y="0">MENU</tspan></text>
+    <text id="_FADBAMSEVALG17-2" data-name="#FADBAMSEVALG17" class="cls-6" transform="translate(4182 327)"><tspan x="0" y="0">#FADBAMSEVALG17</tspan></text>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-7" width="1920" height="91" transform="translate(3980 2650)"/>
+    <text id="FOOTER" class="cls-8" transform="translate(4873 2708)"><tspan x="0" y="0">FOOTER</tspan></text>
+    <g id="Rectangle_17" data-name="Rectangle 17" class="cls-9" transform="translate(4023 565)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_18" data-name="Rectangle 18" class="cls-9" transform="translate(5301 565)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_19" data-name="Rectangle 19" class="cls-9" transform="translate(4661 565)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-10" cx="41" cy="41" r="41" transform="translate(4043 584)"/>
+    <text id="Brugernavn" class="cls-11" transform="translate(4142 619)"><tspan x="0" y="0">Brugernavn</tspan></text>
+    <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-10" width="519" height="448" transform="translate(4043 684)"/>
+    <g id="Repeat_Grid_3" data-name="Repeat Grid 3" class="cls-12" transform="translate(4681 584)">
+      <g id="Group_2" data-name="Group 2" transform="translate(-701 -1982)">
+        <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-2" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+    <g id="Repeat_Grid_4" data-name="Repeat Grid 4" class="cls-12" transform="translate(5321 584)">
+      <g id="Group_3" data-name="Group 3" transform="translate(-701 -1982)">
+        <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-3" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+    <g id="Rectangle_23" data-name="Rectangle 23" class="cls-9" transform="translate(4023 1266)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_24" data-name="Rectangle 24" class="cls-9" transform="translate(5301 1266)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_25" data-name="Rectangle 25" class="cls-9" transform="translate(4661 1266)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-10" cx="41" cy="41" r="41" transform="translate(4043 1285)"/>
+    <text id="Brugernavn-4" data-name="Brugernavn" class="cls-11" transform="translate(4142 1320)"><tspan x="0" y="0">Brugernavn</tspan></text>
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-10" width="519" height="448" transform="translate(4043 1385)"/>
+    <g id="Repeat_Grid_5" data-name="Repeat Grid 5" class="cls-12" transform="translate(4681 1285)">
+      <g id="Group_4" data-name="Group 4" transform="translate(-701 -1982)">
+        <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-5" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+    <g id="Repeat_Grid_6" data-name="Repeat Grid 6" class="cls-12" transform="translate(5321 1285)">
+      <g id="Group_5" data-name="Group 5" transform="translate(-701 -1982)">
+        <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-6" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+    <g id="Rectangle_29" data-name="Rectangle 29" class="cls-9" transform="translate(4023 1967)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_30" data-name="Rectangle 30" class="cls-9" transform="translate(5301 1967)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <g id="Rectangle_31" data-name="Rectangle 31" class="cls-9" transform="translate(4661 1967)">
+      <rect class="cls-13" width="558" height="658"/>
+      <rect class="cls-1" x="0.5" y="0.5" width="557" height="657"/>
+    </g>
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-10" cx="41" cy="41" r="41" transform="translate(4043 1986)"/>
+    <text id="Brugernavn-7" data-name="Brugernavn" class="cls-11" transform="translate(4142 2021)"><tspan x="0" y="0">Brugernavn</tspan></text>
+    <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-10" width="519" height="448" transform="translate(4043 2086)"/>
+    <g id="Repeat_Grid_7" data-name="Repeat Grid 7" class="cls-12" transform="translate(4681 1986)">
+      <g id="Group_6" data-name="Group 6" transform="translate(-701 -1982)">
+        <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-8" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_33" data-name="Rectangle 33" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+    <g id="Repeat_Grid_8" data-name="Repeat Grid 8" class="cls-12" transform="translate(5321 1986)">
+      <g id="Group_7" data-name="Group 7" transform="translate(-701 -1982)">
+        <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-10" cx="41" cy="41" r="41" transform="translate(701 1982)"/>
+        <text id="Brugernavn-9" data-name="Brugernavn" class="cls-11" transform="translate(800 2017)"><tspan x="0" y="0">Brugernavn</tspan></text>
+        <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-10" width="519" height="448" transform="translate(701 2082)"/>
+      </g>
+    </g>
+  </g>
+</svg>

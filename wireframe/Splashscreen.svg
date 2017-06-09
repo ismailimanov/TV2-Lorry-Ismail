@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Splashscreen);
+      }
+
+      .cls-2 {
+        fill: #ccc;
+        stroke: #95989a;
+      }
+
+      .cls-3 {
+        fill: #ddd;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 75px;
+        font-family: HelveticaNeue-Light, Helvetica Neue;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        fill: #efc720;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-Splashscreen">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Splashscreen" class="cls-1">
+    <rect class="cls-6" width="1920" height="1080"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-7" width="1920" height="1080"/>
+      <rect class="cls-8" x="0.5" y="0.5" width="1919" height="1079"/>
+    </g>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="368" cy="368" r="368" transform="translate(592 172)"/>
+    <text id="_75_" data-name="75%" class="cls-4" transform="translate(881 857)"><tspan x="0" y="0">75%</tspan></text>
+    <path id="Path_1" data-name="Path 1" class="cls-5" d="M0,0S37.33,7.592,60.047,0s19.074,9.521,51.06,0S167,0,167,0V199H0Z" transform="translate(868 456)"/>
+    <path id="oel" class="cls-6" d="M121.78,269.726H87.557V96.9c10.267,3.422,25.667,3.422,34.223-1.711Zm136.891,3.422V4.5c-10.267,5.133-22.245,8.556-34.223,6.845V271.438c0,6.845,0,11.978,1.711,18.823H51.623c1.711-5.133,1.711-10.267,1.711-17.111V9.633c-11.978,1.711-22.245,0-34.223-5.133V273.149c0,15.4-6.845,29.089-17.111,29.089v35.934H275.782V300.527C263.8,300.527,258.671,288.549,258.671,273.149ZM308.294,81.5H275.782v34.223h25.667c41.067,0,29.089,75.29-25.667,107.8v37.645c54.756-20.534,85.557-75.29,85.557-119.78C361.339,107.168,344.228,81.5,308.294,81.5Z" transform="translate(813 368.5)"/>
+  </g>
+</svg>

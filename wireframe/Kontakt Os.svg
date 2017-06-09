@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="7960 0 1920 1411">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Kontakt_Os);
+      }
+
+      .cls-2 {
+        fill: rgba(239,199,32,0.65);
+      }
+
+      .cls-3 {
+        fill: #bbb;
+        opacity: 0.8;
+      }
+
+      .cls-10, .cls-13, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 49px;
+      }
+
+      .cls-11, .cls-13, .cls-4, .cls-5, .cls-7 {
+        font-family: HelveticaNeue-Light, Helvetica Neue;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        font-size: 154px;
+      }
+
+      .cls-6 {
+        fill: #eee;
+      }
+
+      .cls-7 {
+        font-size: 34px;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        fill: #efc720;
+      }
+
+      .cls-11 {
+        font-size: 43px;
+      }
+
+      .cls-12 {
+        fill: rgba(239,199,32,0.67);
+      }
+
+      .cls-13 {
+        font-size: 29px;
+      }
+
+      .cls-14 {
+        fill: #fafafa;
+      }
+    </style>
+    <clipPath id="clip-Kontakt_Os">
+      <rect x="7960" width="1920" height="1411"/>
+    </clipPath>
+  </defs>
+  <g id="Kontakt_Os" data-name="Kontakt Os" class="cls-1">
+    <rect class="cls-14" x="7960" width="1920" height="1411"/>
+    <path id="Path_7" data-name="Path 7" class="cls-2" d="M0,0H1920V942s-106.391,22.708-236.914,0-119.921,30.688-286.066,0-213.864,30.37-361.713,0-170.034-36.109-340.319,0-197.306-34.568-366.231,0S0,942,0,942Z" transform="translate(7960 -440)"/>
+    <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-3" width="332" height="116" transform="translate(7987 25)"/>
+    <text id="LOGO" class="cls-4" transform="translate(8084 102)"><tspan x="0" y="0">LOGO</tspan></text>
+    <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-3" width="815" height="116" transform="translate(9040 25)"/>
+    <text id="MENU" class="cls-4" transform="translate(9378 102)"><tspan x="0" y="0">MENU</tspan></text>
+    <text id="KONTAKT_OS-2" data-name="KONTAKT OS" class="cls-5" transform="translate(8920 327)"><tspan x="-466.928" y="0">KONTAKT OS</tspan></text>
+    <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-6" width="1920" height="91" transform="translate(7960 1319)"/>
+    <text id="FOOTER" class="cls-7" transform="translate(8853 1377)"><tspan x="0" y="0">FOOTER</tspan></text>
+    <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-8" width="1260" height="656" transform="translate(7960 580)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-9" d="M0,2.492s59.319,12.064,95.416,0,30.309,15.129,81.136,0,88.815,0,88.815,0V318.709H0Z" transform="translate(9352.219 772.397)"/>
+    <path id="oel" class="cls-10" d="M192.333,425.952H137.952V151.329c16.314,5.438,40.786,5.438,54.381-2.719Zm217.524,5.438V4.5c-16.314,8.157-35.348,13.6-54.381,10.876v413.3c0,10.876,0,19.033,2.719,29.91H80.852c2.719-8.157,2.719-16.314,2.719-27.19V12.657c-19.033,2.719-35.348,0-54.381-8.157V431.391c0,24.471-10.876,46.224-27.19,46.224v57.1H437.048V474.9C418.014,474.9,409.857,455.862,409.857,431.391ZM488.71,126.857H437.048v54.381h40.786c65.257,0,46.224,119.638-40.786,171.3v59.819C524.057,379.729,573,292.719,573,222.024,573,167.643,545.81,126.857,488.71,126.857Z" transform="translate(9266 638.5)"/>
+    <text id="Har_du_et_spørgsmål_Skriv_til_os_" data-name="Har du et spørgsmål? Skriv til os!" class="cls-11" transform="translate(8272 634)"><tspan x="0" y="0">Har du et spørgsmål? Skriv til os!</tspan></text>
+    <rect id="Rectangle_43" data-name="Rectangle 43" class="cls-10" width="1199" height="73" rx="10" transform="translate(8006 657)"/>
+    <rect id="Rectangle_44" data-name="Rectangle 44" class="cls-10" width="1199" height="73" rx="10" transform="translate(8006 744)"/>
+    <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-10" width="1199" height="73" rx="10" transform="translate(8006 831)"/>
+    <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-10" width="1199" height="255" rx="10" transform="translate(8006 918)"/>
+    <rect id="Rectangle_47" data-name="Rectangle 47" class="cls-12" width="1199" height="73" rx="10" transform="translate(8006 1187)"/>
+    <text id="SEND_BESKED" data-name="SEND BESKED" class="cls-13" transform="translate(8502 1235)"><tspan x="0" y="0">SEND BESKED</tspan></text>
+  </g>
+</svg>

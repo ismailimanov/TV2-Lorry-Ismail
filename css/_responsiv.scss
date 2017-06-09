@@ -1,0 +1,140 @@
+.resMenu {
+  display: none;
+  float: right;
+  margin-top: 20px;
+
+  li {
+    display: inline-block;
+
+    i {
+      font-size: 40px;
+    }
+  }
+
+  #menuKnap {
+    transition: all .4s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.responsivMenu {
+  position: fixed;
+  top: 0;
+  right: -50vmin;
+  bottom: 0;
+  width: 50vmin;
+  background: darken($temaRGB, 4%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: all .4s ease-in-out;
+  box-shadow: inset 7px 0 5px darken($temaRGB, 5%);
+
+  .menuPunkt {
+    font-family: 'Roboto', sans-serif;
+    color: $sideFarve;
+    font-weight: 500;
+    font-size: 1.65em;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+      background: darken($temaRGB, 5%);
+      cursor: pointer;
+    }
+  }
+
+  .resActive {
+    background: darken($temaRGB, 5%);
+  }
+}
+
+.aabn {
+  right: 0;
+}
+
+.menuAabn {
+  transform: translatex(-50vmin);
+}
+
+.menuKnapAabn {
+  transform: translatex(-50vmin);
+}
+
+@media screen and (max-width: 1050px){
+  .menu {
+    display: none !important;
+  }
+
+  .resMenu {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .logoTekst {
+    display: none;
+  }
+
+  .omosLogoHolder {
+    margin-top: 50px !important;
+  }
+
+  .samarbejdspartner {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+
+  .hvad {
+    border-right: none !important;
+  }
+
+  .seneste h2 {
+    font-size: 2.2rem;
+    text-align: center !important;
+  }
+
+  .samarb h2 {
+    font-size: 1.8em !important;
+    text-align: center !important;
+  }
+
+  .video h2 {
+    font-size: 2em !important;
+    text-align: center !important;
+  }
+
+  .billedeHolder {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .virkOver {
+    margin-top: 30px;
+  }
+
+  .menuPunkt {
+    font-size: 1.4em !important;
+  }
+
+  .topslider, .fbv, .omostop, .kontaktostop {
+    background-attachment: scroll !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .virkOver {
+    font-size: 1.4em !important;
+  }
+
+  .menuPunkt {
+    font-size: 1em !important;
+  }
+}

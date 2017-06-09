@@ -1,0 +1,602 @@
+/* FADBAMSEVALG17 CSS Fil */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.resMenu {
+  display: none;
+  float: right;
+  margin-top: 20px; }
+  .resMenu li {
+    display: inline-block; }
+    .resMenu li i {
+      font-size: 40px; }
+  .resMenu #menuKnap {
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+    .resMenu #menuKnap:hover {
+      cursor: pointer; }
+
+.responsivMenu {
+  position: fixed;
+  top: 0;
+  right: -50vmin;
+  bottom: 0;
+  width: 50vmin;
+  background: #eac011;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  -webkit-box-shadow: inset 7px 0 5px #e5bc10;
+  box-shadow: inset 7px 0 5px #e5bc10; }
+  .responsivMenu .menuPunkt {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+    font-weight: 500;
+    font-size: 1.65em;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+    .responsivMenu .menuPunkt:hover {
+      background: #e5bc10;
+      cursor: pointer; }
+  .responsivMenu .resActive {
+    background: #e5bc10; }
+
+.aabn {
+  right: 0; }
+
+.menuAabn {
+  -webkit-transform: translatex(-50vmin);
+  -ms-transform: translatex(-50vmin);
+  transform: translatex(-50vmin); }
+
+.menuKnapAabn {
+  -webkit-transform: translatex(-50vmin);
+  -ms-transform: translatex(-50vmin);
+  transform: translatex(-50vmin); }
+
+@media screen and (max-width: 1050px) {
+  .menu {
+    display: none !important; }
+  .resMenu {
+    display: block !important; } }
+
+@media screen and (max-width: 600px) {
+  .logoTekst {
+    display: none; }
+  .omosLogoHolder {
+    margin-top: 50px !important; }
+  .samarbejdspartner {
+    text-align: center !important;
+    margin-bottom: 10px; }
+  .hvad {
+    border-right: none !important; }
+  .seneste h2 {
+    font-size: 2.2rem;
+    text-align: center !important; }
+  .samarb h2 {
+    font-size: 1.8em !important;
+    text-align: center !important; }
+  .video h2 {
+    font-size: 2em !important;
+    text-align: center !important; }
+  .billedeHolder {
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .virkOver {
+    margin-top: 30px; }
+  .menuPunkt {
+    font-size: 1.4em !important; }
+  .topslider, .fbv, .omostop, .kontaktostop {
+    background-attachment: scroll !important; } }
+
+@media screen and (max-width: 400px) {
+  .virkOver {
+    font-size: 1.4em !important; }
+  .menuPunkt {
+    font-size: 1em !important; } }
+
+.topslider {
+  width: 100%;
+  height: 80vh;
+  min-height: 10em;
+  overflow: hidden;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.7))), url("../img/festival.gif") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.fbv {
+  height: 40vh !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.7))), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.omostop {
+  height: 40vh !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.7))), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.kontaktostop {
+  height: 40vh !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.7))), url("https://img.buzzfeed.com/buzzfeed-static/static/2016-01/4/14/enhanced/webdr13/anigif_original-14577-1451936977-4.gif") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://img.buzzfeed.com/buzzfeed-static/static/2016-01/4/14/enhanced/webdr13/anigif_original-14577-1451936977-4.gif") no-repeat;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://img.buzzfeed.com/buzzfeed-static/static/2016-01/4/14/enhanced/webdr13/anigif_original-14577-1451936977-4.gif") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://img.buzzfeed.com/buzzfeed-static/static/2016-01/4/14/enhanced/webdr13/anigif_original-14577-1451936977-4.gif") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
+
+.oel {
+  width: calc( 100% + 4em);
+  height: 100%;
+  position: absolute;
+  left: -2em;
+  background: bottom center repeat-x;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  z-index: -1; }
+
+.oelAnim {
+  -webkit-animation-name: oelAnim;
+  animation-name: oelAnim;
+  -webkit-animation-duration: 7400ms;
+  animation-duration: 7400ms;
+  -webkit-animation-delay: -1200ms;
+  animation-delay: -1200ms;
+  top: 1em;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246" height="2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M247,1957c-11,0-20.3,7.5-23,17.6c-2.4-3.2-5.8-5.1-9.5-5.1c-2.2,0-4.2,0.7-6,1.8c-3-9.5-11-16.3-20.5-16.3\a 	c-8.3,0-15.5,5.2-19.2,13c-2.3-0.9-4.8-1.5-7.5-1.5c-6.9,0-12.8,3.4-16.1,8.6c-2.5-11.5-11.4-20.1-21.9-20.1\a 	c-10.8,0-19.8,8.8-22.1,20.7c-3.1-5.5-9-9.2-15.8-9.2c-2.8,0-5.4,0.6-7.7,1.7c-3.4-7.8-10.6-13.2-19-13.2c-9,0-16.7,6.2-19.7,14.9\a 	c-1.3-0.3-2.6-0.4-4-0.4c-5.4,0-10.1,2.1-13.1,5.4c-2.7-10.2-12.5-17.7-24.1-17.7c-13.7,0-24.9,10.5-24.9,23.5s11.1,23.5,24.9,23.5\a 	c0.7,0,1.4,0,2.1-0.1v6.8h246.6v-6.5c0.1,0,0.3,0,0.4,0c13.1,0,23.8-10.6,23.8-23.8S260.1,1957,247,1957z"/></svg>');
+  background-position: bottom left;
+  z-index: 2; }
+
+.sliderOverskrift {
+  text-align: center;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  font-size: 5vmax;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+
+@-webkit-keyframes oelAnim {
+  from {
+    -webkit-transform: rotate(0deg) translatey(-0.61em) rotate(0deg);
+    transform: rotate(0deg) translatey(-0.61em) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translatey(-0.61em) rotate(-360deg);
+    transform: rotate(360deg) translatey(-0.61em) rotate(-360deg); } }
+
+@keyframes oelAnim {
+  from {
+    -webkit-transform: rotate(0deg) translatey(-0.61em) rotate(0deg);
+    transform: rotate(0deg) translatey(-0.61em) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translatey(-0.61em) rotate(-360deg);
+    transform: rotate(360deg) translatey(-0.61em) rotate(-360deg); } }
+
+html, body {
+  height: 100%;
+  background: #efc720;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 80px; }
+  html .indhold, body .indhold {
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+  html header, body header {
+    position: fixed;
+    background: #FAFAFA;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    height: 80px;
+    -webkit-box-shadow: 0 3px 9px rgba(204, 204, 204, 0.6);
+    box-shadow: 0 3px 9px rgba(204, 204, 204, 0.6); }
+    html header .logoLink, body header .logoLink {
+      color: inherit; }
+      html header .logoLink .logoHolder, body header .logoLink .logoHolder {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        height: 80px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        html header .logoLink .logoHolder .logo, body header .logoLink .logoHolder .logo {
+          max-height: 70px;
+          max-width: 70px; }
+        html header .logoLink .logoHolder .logoTekst, body header .logoLink .logoHolder .logoTekst {
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 1.5em;
+          margin-left: 10px; }
+    html header .menu, body header .menu {
+      display: block;
+      float: right; }
+      html header .menu li, body header .menu li {
+        list-style: none;
+        display: inline-block;
+        line-height: 80px;
+        text-transform: uppercase;
+        margin: 0 10px;
+        font-size: 18px; }
+        html header .menu li a, body header .menu li a {
+          text-decoration: none;
+          color: inherit;
+          padding-bottom: 5px;
+          border-bottom: 1px solid transparent;
+          -webkit-transition: all .6s ease-in-out;
+          -o-transition: all .6s ease-in-out;
+          transition: all .6s ease-in-out;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400; }
+          html header .menu li a:hover, body header .menu li a:hover {
+            border-bottom: 2px solid #efc720;
+            cursor: pointer; }
+        html header .menu li .active, body header .menu li .active {
+          border-bottom: 2px solid #efc720;
+          font-weight: 500; }
+        html header .menu li:last-of-type, body header .menu li:last-of-type {
+          margin-right: 0; }
+  html .skumBund, body .skumBund {
+    height: 166px;
+    width: 100%;
+    background: url("../img/oelskum.png") repeat-x; }
+  html .top, body .top {
+    border-bottom: 1px dashed #FAFAFA; }
+  html .hvad h1, body .hvad h1 {
+    text-transform: uppercase;
+    color: #FAFAFA;
+    font-size: 3.5em; }
+  html .hvad p, body .hvad p {
+    color: #FAFAFA;
+    text-align: justify;
+    font-size: 22px;
+    padding-right: 10px; }
+  html .info, body .info {
+    margin-top: 40px;
+    text-align: center;
+    border-left: 1px dashed #FAFAFA; }
+    html .info img, body .info img {
+      border-radius: 100%; }
+    html .info span, body .info span {
+      color: #FAFAFA;
+      font-weight: 500;
+      font-size: 24px; }
+    html .info p, body .info p {
+      color: #FAFAFA;
+      font-size: 19px;
+      margin-top: 5px; }
+    html .info .gronBillet, body .info .gronBillet {
+      width: 100%;
+      margin-top: 50px;
+      background: #6E9F5A;
+      text-align: left;
+      font-family: 'Lato', sans-serif; }
+      html .info .gronBillet .billetArtister, body .info .gronBillet .billetArtister {
+        width: 100%;
+        padding: 10px 20px 5px 40px; }
+        html .info .gronBillet .billetArtister--overskrift, body .info .gronBillet .billetArtister--overskrift {
+          color: #000;
+          font-weight: 700;
+          font-size: 2em; }
+        html .info .gronBillet .billetArtister--artist, body .info .gronBillet .billetArtister--artist {
+          font-weight: 900; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(2), body .info .gronBillet .billetArtister--artist:nth-of-type(2) {
+            color: #FAFAFA;
+            font-size: 3em;
+            line-height: 40px;
+            letter-spacing: 2px; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(3), body .info .gronBillet .billetArtister--artist:nth-of-type(3) {
+            font-size: 2.5em; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(4), body .info .gronBillet .billetArtister--artist:nth-of-type(4) {
+            font-size: 2.9em;
+            color: #FAFAFA;
+            line-height: 35px; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(5), body .info .gronBillet .billetArtister--artist:nth-of-type(5) {
+            font-size: 2.3em;
+            line-height: 40px; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(6), body .info .gronBillet .billetArtister--artist:nth-of-type(6) {
+            font-size: 2.3em;
+            color: #FAFAFA;
+            line-height: 35px; }
+          html .info .gronBillet .billetArtister--artist:nth-of-type(7), body .info .gronBillet .billetArtister--artist:nth-of-type(7) {
+            font-size: 2.2em;
+            line-height: 35px; }
+      html .info .gronBillet .billetBy, body .info .gronBillet .billetBy {
+        width: 100%;
+        background: #C52958;
+        color: #FAFAFA;
+        padding: 5px 20px 5px 40px; }
+        html .info .gronBillet .billetBy--venstre, body .info .gronBillet .billetBy--venstre {
+          float: left;
+          font-size: .8em;
+          line-height: 12px;
+          padding-top: 5px; }
+        html .info .gronBillet .billetBy--hoejre, body .info .gronBillet .billetBy--hoejre {
+          float: right;
+          text-transform: uppercase;
+          font-size: 1.5em; }
+        html .info .gronBillet .billetBy--clear, body .info .gronBillet .billetBy--clear {
+          clear: both; }
+      html .info .gronBillet .billetBund, body .info .gronBillet .billetBund {
+        width: 100%;
+        background: #FFF;
+        color: #000;
+        padding: 5px 20px 5px 40px;
+        font-size: .9em; }
+        html .info .gronBillet .billetBund--overskrift, body .info .gronBillet .billetBund--overskrift {
+          font-weight: 900; }
+        html .info .gronBillet .billetBund--venstre, body .info .gronBillet .billetBund--venstre {
+          float: left; }
+        html .info .gronBillet .billetBund--hoejre, body .info .gronBillet .billetBund--hoejre {
+          float: right;
+          width: 50%; }
+          html .info .gronBillet .billetBund--hoejre img, body .info .gronBillet .billetBund--hoejre img {
+            border-radius: 0;
+            width: 100%;
+            float: right;
+            padding-top: 5px; }
+        html .info .gronBillet .billetBund--clear, body .info .gronBillet .billetBund--clear {
+          clear: both; }
+  html .seneste h2, body .seneste h2 {
+    color: #FAFAFA;
+    text-align: center; }
+  html .insta, body .insta {
+    text-align: center; }
+  html .instaBilleder, body .instaBilleder {
+    margin-top: 50px; }
+    html .instaBilleder .fadbamsevalgTekst, body .instaBilleder .fadbamsevalgTekst {
+      margin-bottom: 50px; }
+      html .instaBilleder .fadbamsevalgTekst p, body .instaBilleder .fadbamsevalgTekst p {
+        color: #FAFAFA;
+        text-align: justify; }
+      html .instaBilleder .fadbamsevalgTekst .omosLink, body .instaBilleder .fadbamsevalgTekst .omosLink {
+        color: inherit;
+        text-decoration: underline; }
+  html .omos, body .omos {
+    margin-top: 50px;
+    border-bottom: 1px dashed #FAFAFA; }
+    html .omos h1, body .omos h1 {
+      text-transform: uppercase;
+      color: #FAFAFA;
+      font-size: 3.5em;
+      margin-top: 0; }
+    html .omos p, body .omos p {
+      color: #FAFAFA;
+      text-align: justify;
+      font-size: 22px; }
+    html .omos .omosLogo, body .omos .omosLogo {
+      width: 90%;
+      display: block;
+      margin: 0 auto; }
+  html .video, body .video {
+    border-bottom: 1px dashed #FAFAFA; }
+    html .video h2, body .video h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .video .videowrapper, body .video .videowrapper {
+      float: none;
+      clear: both;
+      width: 100%;
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0; }
+      html .video .videowrapper iframe, body .video .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none; }
+  html .teamet, body .teamet {
+    border-bottom: 1px dashed #FAFAFA; }
+    html .teamet h2, body .teamet h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .teamet .billedeHolder, body .teamet .billedeHolder {
+      position: relative;
+      height: 200px;
+      width: 200px;
+      border-radius: 100%;
+      overflow: hidden; }
+      html .teamet .billedeHolder .billede, body .teamet .billedeHolder .billede {
+        background: transparent;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 100%;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; }
+        html .teamet .billedeHolder .billede:hover, body .teamet .billedeHolder .billede:hover {
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          -webkit-box-shadow: 0 0 5px #dcb410;
+          box-shadow: 0 0 5px #dcb410; }
+      html .teamet .billedeHolder .helene, body .teamet .billedeHolder .helene {
+        background: url("../img/helene.jpg") no-repeat;
+        background-size: cover;
+        background-position: 0 -10px; }
+      html .teamet .billedeHolder .ismail, body .teamet .billedeHolder .ismail {
+        background: url("../img/ismail.jpg") no-repeat;
+        background-size: cover; }
+      html .teamet .billedeHolder .line, body .teamet .billedeHolder .line {
+        background: url("../img/line.jpg") no-repeat;
+        background-size: cover;
+        background-position: 0 -10px; }
+      html .teamet .billedeHolder .mie, body .teamet .billedeHolder .mie {
+        background: url("../img/mie.jpg") no-repeat;
+        background-size: cover; }
+      html .teamet .billedeHolder span, body .teamet .billedeHolder span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #FAFAFA;
+        font-size: 1.2em;
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out; }
+      html .teamet .billedeHolder:hover span, body .teamet .billedeHolder:hover span {
+        bottom: 40px;
+        opacity: 1; }
+  html .admin, body .admin {
+    margin-top: 50px; }
+    html .admin h1, body .admin h1 {
+      color: #FAFAFA;
+      font-size: 2em;
+      text-transform: uppercase;
+      text-align: center; }
+    html .admin .adminLogind input[type="password"], body .admin .adminLogind input[type="password"] {
+      background: #FFF;
+      border-radius: 7px;
+      padding: 0 10px;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    html .admin .adminLogind button, body .admin .adminLogind button {
+      width: 100%;
+      border: 0;
+      border-radius: 7px;
+      padding: 10px;
+      background: #FFF;
+      margin: 0 auto;
+      display: block; }
+    html .admin .kontaktBoks, body .admin .kontaktBoks {
+      background: #FFF;
+      width: 50%;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+      html .admin .kontaktBoks a, body .admin .kontaktBoks a {
+        text-decoration: none;
+        color: inherit; }
+  html .samarb, body .samarb {
+    margin-top: 20px; }
+    html .samarb h2, body .samarb h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .samarb .samarbejdspartner, body .samarb .samarbejdspartner {
+      text-align: right; }
+      html .samarb .samarbejdspartner:last-of-type, body .samarb .samarbejdspartner:last-of-type {
+        text-align: left; }
+  html .hjemmeside, body .hjemmeside {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 12px; }
+  html .kontakt, body .kontakt {
+    margin-top: 50px; }
+    html .kontakt .kontaktOver, body .kontakt .kontaktOver {
+      text-align: center;
+      width: 100%;
+      display: block;
+      color: #FAFAFA;
+      font-size: 1.6em;
+      margin-bottom: 15px; }
+    html .kontakt .virkOver, body .kontakt .virkOver {
+      width: 100%;
+      display: block;
+      color: #FAFAFA;
+      font-size: 1.6em;
+      margin-bottom: 15px; }
+    html .kontakt .virkInfo, body .kontakt .virkInfo {
+      color: #FAFAFA;
+      font-size: 18px; }
+    html .kontakt input[type="text"], html .kontakt input[type="email"], html .kontakt textarea, body .kontakt input[type="text"], body .kontakt input[type="email"], body .kontakt textarea {
+      background: #FAFAFA;
+      border-radius: 10px;
+      border: none;
+      padding: 7px;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: none; }
+    html .kontakt textarea, body .kontakt textarea {
+      min-height: 100px; }
+    html .kontakt button, body .kontakt button {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 7px;
+      border-radius: 10px;
+      background: #43A047;
+      border: none;
+      color: #FAFAFA;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.3em;
+      margin-top: 5px; }
+      html .kontakt button i, body .kontakt button i {
+        font-size: 1.2em;
+        padding-right: 5px; }
+  html footer, body footer {
+    text-align: center;
+    color: #000;
+    background: #fff9c4;
+    padding: 10px 0;
+    font-size: 1.2vmax; }
