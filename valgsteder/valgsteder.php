@@ -3,7 +3,7 @@
 // Tænkt til vores "Find din nærmeste valgsted" funktion.
 
 // Tilslutning til database
-$link = mysqli_connect("localhost","337d72ce71f5","b4bc35fae38a517e","valg");
+$link = mysqli_connect("localhost","root","","fadbamsevalg");
 
 // Tjek om der er fejl i forbindelsen
 if (mysqli_connect_errno()){
@@ -38,7 +38,7 @@ while($vD = mysqli_fetch_array($valgData)){
     $longitude = $afkodet->results[0]->geometry->location->lng;
 
     // Tilføjer latitude og longtitude
-    mysqli_query($link, "UPDATE valgsteder SET `lat`='$latitude', `long`='$longitude' WHERE `OBJECTID`='$objectID'") or die(mysqli_error($link));
+    mysqli_query($link, "UPDATE valgsteder SET `lat`='$latitude', `longt`='$longitude' WHERE `OBJECTID`='$objectID'") or die(mysqli_error($link));
 
     // Bekræftelsesbesked, så vi kan se om det er rigtig data som er blevet sendt afsted.
     echo "{$objectID} - {$latitude}, {$longitude} - {$afstemNav} {$kommuneNav}<br>";

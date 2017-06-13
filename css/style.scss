@@ -41,6 +41,9 @@ html, body {
                 .logo {
                     max-height: 70px;
                     max-width: 70px;
+                    width: 100%;
+                    height: 100%;
+                    background: url("../img/logo.svg") no-repeat;
                 }
 
                 .logoTekst {
@@ -630,5 +633,21 @@ html, body {
         background: #fff9c4;
         padding: 10px 0;
         font-size: 1.2vmax;
+    }
+}
+
+.valgstedResultat {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: $sideFarve !important;
+
+    .valgstedTekst {
+        a {
+            text-decoration: underline;
+            color: $sideFarve;
+            font-weight: bold;
+        }
     }
 }

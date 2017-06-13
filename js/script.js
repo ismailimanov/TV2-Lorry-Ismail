@@ -15,4 +15,18 @@ $(document).ready(function() {
     $.validate({
         lang : 'dk'
     });
+
+    $('.lokationForm').submit(function(event){
+        var lokationForm = $(".lokationForm");
+        var postNrVal = $('#postnr').val();
+
+        var valgstedResultat = $('.valgstedResultat');
+
+        event.preventDefault();
+
+
+        $.get( "valgsteder/hentValgsteder.php", {postNr: postNrVal}, function( data ) {
+            $( ".valgstedResultat" ).html( data );
+        });
+    });
 });

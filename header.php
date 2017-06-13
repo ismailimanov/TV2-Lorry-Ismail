@@ -61,7 +61,7 @@ include("inc/config.php");
             <div class="col s4 m4 l4">
                 <a href="forside" class="logoLink">
                     <div class="logoHolder">
-                        <img src="img/logo.svg" class="logo" alt="Logo billede">
+                        <div class="logo"></div>
                         <div class="logoTekst">
                             FADBAMSEVALG
                         </div>

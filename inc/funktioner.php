@@ -15,6 +15,17 @@
 
     function sendBesked($link, $fuldeNavn, $email, $emne, $besked){
         mysqli_query($link, "INSERT INTO kontakt (fuldeNavn, emailAdresse, emne, besked) VALUES ('{$fuldeNavn}', '{$email}', '{$emne}', '{$besked}')");
+
+        // Send email
+
+        $til      = 'ismail@imanov.dk';
+        $emailEmne = $emne . ' - FADBAMSEVALG Kontaktformular';
+        $emailBesked = $besked;
+        $headers = 'From: '. $email . "\r\n" .
+            'Reply-To: ' . $email . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
+
+        mail($til, $emailEmne, $emailBesked, $headers);
     }
 
     function hentBeskeder($link){

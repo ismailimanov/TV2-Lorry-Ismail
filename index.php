@@ -19,9 +19,10 @@ include("header.php");
                     <div class="col s12 m12 l12">
                         <h1>Find dit nærmeste valgsted</h1>
                         <form action="" method="post" class="lokationForm">
-                            <input type="number" name="postnr" data-validation="length" data-validation-length="4" placeholder="Indtast dit postnummer" data-validation-error-msg="Postnummeret skal være 4 tegn." required>
-                            <input type="submit" value="Søg" name="findLokation">
+                            <input type="number" name="postnr" id="postnr" data-validation="length" data-validation-length="4" placeholder="Indtast dit postnummer" data-validation-error-msg="Postnummeret skal være 4 tegn." required>
+                            <input type="submit" value="Søg" name="findLokation" id="findLokation">
                         </form>
+                        <div class="valgstedResultat"></div>
                     </div>
                 </div>
             </div>
